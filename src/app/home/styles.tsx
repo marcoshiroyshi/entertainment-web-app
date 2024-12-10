@@ -14,12 +14,30 @@ export const AsideNav = styled.div`
     width: 10%;
     margin-top: 2rem;
     margin-left: 2rem;
+    padding-top: 5rem;
     border-radius: 30px;
     height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
+    img {
+        width: 30px;
+        height: e0px;
+    }
+
+    div {
+        display: flex;
+        margin-top: 5rem;
+        gap: 30px;
+        flex-direction: column;
+    }
 `
 
 export const HomePage = styled.div`
-    border: 1px solid white;
+    width: 100%;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    padding-left: 2rem;
 `
 
