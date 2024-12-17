@@ -2,6 +2,7 @@ import React from 'react'
 import { AsideNav, Container, HomePage } from './styles'
 import Search from '../components/SearchInput/Search'
 import Trending from '../components/Trending/Trending'
+import Recommended from '../components/Recommended/Recommended'
 
 function Home() {
   return (
@@ -18,6 +19,7 @@ function Home() {
         <HomePage>
           <Search/>
           <Trending/>
+          <Recommended/>
         </HomePage>
     </Container>
   )
